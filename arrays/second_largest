@@ -1,0 +1,10 @@
+numbers = [12, 5, 28, 7, 20]
+
+largest=numbers[0]
+second_largest=numbers[0]
+
+for number in numbers:
+    if number>largest:
+        second_largest=number
+    
+print(second_largest)
